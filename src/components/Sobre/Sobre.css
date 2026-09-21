@@ -1,0 +1,25 @@
+#sobre {
+    border-bottom: 1px solid var(--color-border);
+    padding: 20px;
+}
+.card-adc {
+    display: flex;
+    gap: 15px;
+    max-width: 330px;
+    border: 1px solid var(--color-primary);
+    background-color: var(--color-card);
+    border-radius: 10px;
+    padding: 15px 50px 15px 15px;
+    margin: 30px 0 10px;
+}
+.card-adc svg {
+    color: var(--color-primary);
+}
+.sobre-txt {
+    margin: 10px 0;
+}
+@media (min-width: 768px) {
+    .card-adc {
+        max-width: 350px;
+    }
+}

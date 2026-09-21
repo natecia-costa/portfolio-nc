@@ -1,0 +1,46 @@
+.botoes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px 20px;
+    padding: 0 30px;
+}
+.botao-conteudo {
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    color: var(--color-text);
+    border: 1px solid var(--color-border);
+    padding: 10px 15px;
+    font-size: 11px;
+    border-radius: 20px;
+}
+.botao-conteudo svg {
+    font-size: 15px;
+}
+.botao-wpp {
+    background-color: var(--color-primary);
+    padding: 15px;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 30px 0 30px 30px;
+    width: 230px;
+}
+.final {
+    border-top: 1px solid var(--color-border);
+    padding: 30px;
+}
+.final p {
+    font-size: 10px;
+    margin-top: 5px;
+}
+@media (min-width: 768px) {
+    .final {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .final p {
+        margin-top: 0;
+        padding-right: 30px;
+    }
+}

@@ -1,0 +1,30 @@
+#habilidades {
+    padding: 20px;
+    border-bottom: 1px solid var(--color-border);
+}
+#habilidades h3 {
+    color: var(--color-primary-light);
+    margin: 10px 0;
+    font-size: 13px;
+}
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 15px;
+}
+.item-skills {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    max-width: 200px;
+    background-color: var(--color-bg-secondary);
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+.item-skills p {
+    font-size: 11px;
+}
+.skills img {
+    width: 30px;
+}

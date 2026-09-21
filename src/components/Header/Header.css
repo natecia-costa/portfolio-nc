@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+header {
+    background-color: var(--color-bg);
+    font-family: var(--font-heading);
+    color: var(--color-text);
+    border-bottom: 1px solid var(--color-border);
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+}
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+.text-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.text-header span {
+    font-size: 35px;
+    color: var(--color-primary);
+    font-family: 'Dancing Script', cursive;
+    padding-left: 30px;
+}
+.text-header h1 {
+    font-size: 14px;
+}
+.text-header p {
+    font-size: 11px;
+}
+.menu {
+  display: none;
+}
+.menu-aberto {
+    display: flex;
+    flex-direction: column;
+    width: 200px;    
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+}
+.menu-button {
+    all: unset;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 10px;
+}
+nav a {
+    text-decoration: none;
+    color: var(--color-text);
+    background-color: var(--color-card);
+    font-size: 11px;
+    border-bottom: 1px solid var(--color-border);
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    cursor: pointer;
+}
+nav a:hover {
+    color: var(--color-primary);
+    border-bottom: 1px solid var(--color-primary);
+}
+
+@media (min-width: 768px) {
+    .menu-button {
+        display: none;
+    }
+    .menu {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+    nav a {
+        width: auto;
+        padding: 5px;
+        border: none;
+        background-color: var(--color-bg);
+    }
+    nav a:hover, a:focus {
+        border-bottom: 2px solid var(--color-primary);
+    }
+}

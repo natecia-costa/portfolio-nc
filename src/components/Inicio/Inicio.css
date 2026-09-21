@@ -1,0 +1,80 @@
+#inicio {
+    border-bottom: 1px solid var(--color-border);
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 20px 10px 40px;
+}
+.info-iniciais {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.info-iniciais span {
+    color: var(--color-primary);
+}
+.info-iniciais h3 {
+    color: var(--color-text-secondary);
+    font-size: 16px;
+}
+.introducao {
+    max-width: 340px;
+}
+.acesso {
+    padding: 15px 0;
+}
+.acesso a {
+    text-decoration: none;
+    color: var(--color-text);
+    font-weight: bold;
+    border: 1px solid var(--color-primary);
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    cursor: pointer;
+    margin: 0 15px 5px;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+.btn-acesso:hover {
+    background-color: var(--color-primary);
+    color: var(--color-bg);
+}
+.info-adc svg {
+    color: var(--color-primary);
+    font-size: 15px;
+}
+.info-adc {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 20px;
+}
+.info-adc p {
+    font-size: 10.5px;
+}
+.imagem {
+    height: 357px;
+    background-image: url("/minha-foto.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media (min-width: 768px) {
+    #inicio {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .imagem {
+        background-image:
+    linear-gradient(
+      to right,
+      var(--color-bg) 0%,
+      transparent 40%
+    ),
+    url("/minha-foto.png");
+    }
+}
