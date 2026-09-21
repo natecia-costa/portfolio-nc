@@ -1,6 +1,12 @@
 # Portfólio | Natécia Costa
 
+🔗 **Projeto online:** [Clique aqui para acessar](https://portfolio-nc-ten.vercel.app/)
+
 Portfólio pessoal desenvolvido para apresentar minha trajetória, habilidades e projetos na área de desenvolvimento Front-end.
+
+## 🖥️ Preview
+
+![Preview do portfólio](./screenshots/preview.png)
 
 ## 🚀 Tecnologias
 
